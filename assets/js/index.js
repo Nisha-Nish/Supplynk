@@ -1,6 +1,6 @@
 $(document).ready(function () {
   getLanguage();
-  // console.log(language);
+  console.log(language);
   // set navbar
   createList(language.navbar, language.navbarPages);
   createFooterList(language.footerLi, language.footerAtag);
