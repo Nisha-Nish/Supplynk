@@ -69,7 +69,7 @@ function getLanguage() {
   localStorage.getItem('language') == null ? setLanguage('en') : false;
 
   $.ajax({
-    url: '/assets/language/' + localStorage.getItem('language') + '.json',
+    url: '/Supplynk/assets/language/' + localStorage.getItem('language') + '.json',
     dataType: 'json',
     async: false,
     dataType: 'json',
